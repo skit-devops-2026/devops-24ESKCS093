@@ -7,7 +7,7 @@
 
 | Roll No. | Name | GitHub username |
 |---|---|---|
-| <roll> | <name> | <username> |
+| 24ESKCS093 | Chaitanya Choudhary | <chaitanyachoudhary-c> |
 
 ## About
 
