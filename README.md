@@ -1,4 +1,4 @@
-# <Project Name>
+# BILLBOOK
 
 > Replace every angle-bracket placeholder below. The hygiene check in CI will
 > fail until you do.
@@ -7,17 +7,15 @@
 
 | Roll No. | Name | GitHub username |
 |---|---|---|
-| 24ESKCS093 | Chaitanya Choudhary | <chaitanyachoudhary-c> |
+| 24ESKCS093 | Chaitanya Choudhary | chaitanyachoudhary-c |
 
 ## About
-
-<Two or three sentences on what this application does.>
-
+Billbook is a personal expense and budget management web application designed to help users track their financial activities. It allows users to manage expenses, maintain budgets, view insights, and keep a record of transactions through an organised ledger.
 ## Tech stack
 
-- Frontend: <e.g. React>
-- Backend: <e.g. Node.js / Express>
-- Database: <e.g. PostgreSQL>
+- Frontend: HTML,CSS,JS
+- Backend: N.A.
+- Database: N.A.
 
 ## Running locally
 
