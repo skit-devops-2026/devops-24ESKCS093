@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>BILLBOOK - Insights</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Top Header -->
+
+    <header class="topbar">
+
+        <button class="menu-btn">
+            ☰
+        </button>
+
+
+        <div class="logo">
+            BILLBOOK
+        </div>
+
+
+        <button class="profile-btn">
+            ♙
+        </button>
+
+    </header>
+
+
+
+    <!-- Main Content -->
+
+    <main class="insights-page">
+
+
+        <!-- Page Heading -->
+
+        <section class="insights-heading">
+
+            <h1>
+                Insights
+            </h1>
+
+            <p>
+                Your spending, understood.
+            </p>
+
+        </section>
+
+
+
+        <!-- Main Insight -->
+
+        <section class="insight-card">
+
+            <p class="insight-label">
+                EDITOR'S NOTE
+            </p>
+
+
+            <!-- JavaScript will generate this -->
+
+            <h2 id="mainInsight">
+                Your spending insights will appear here.
+            </h2>
+
+
+            <div class="insight-line">
+            </div>
+
+
+            <p id="insightPeriod">
+                This month
+            </p>
+
+        </section>
+
+
+
+        <!-- Spending Trends -->
+
+        <section class="trend-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Spending Trends
+                </h2>
+
+
+                <div class="trend-options">
+
+                    <button>
+                        W
+                    </button>
+
+                    <button class="active">
+                        M
+                    </button>
+
+                    <button>
+                        Y
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Chart -->
+
+            <div class="chart">
+
+                <svg
+                    viewBox="0 0 400 150"
+                    preserveAspectRatio="none"
+                >
+
+                    <!-- Horizontal guide lines -->
+
+                    <line
+                        x1="0"
+                        y1="30"
+                        x2="400"
+                        y2="30"
+                    ></line>
+
+                    <line
+                        x1="0"
+                        y1="75"
+                        x2="400"
+                        y2="75"
+                    ></line>
+
+                    <line
+                        x1="0"
+                        y1="120"
+                        x2="400"
+                        y2="120"
+                    ></line>
+
+
+                    <!-- Spending line -->
+
+                    <path
+                        id="spendingChart"
+                        d=""
+                    ></path>
+
+                </svg>
+
+
+                <div class="chart-labels">
+
+                    <span>
+                        Start
+                    </span>
+
+                    <span>
+                        Middle
+                    </span>
+
+                    <span>
+                        End
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Categories -->
+
+        <section class="categories-section">
+
+            <h2>
+                Categories
+            </h2>
+
+
+            <!-- JavaScript will add categories -->
+
+            <div id="insightCategories">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Top Merchants -->
+
+        <section class="merchants-section">
+
+            <h2>
+                Top Merchants
+            </h2>
+
+
+            <!-- JavaScript will add merchants -->
+
+            <div id="topMerchants">
+
+            </div>
+
+
+            <a
+                href="ledger.html"
+                class="view-ledger"
+            >
+                VIEW FULL LEDGER →
+            </a>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- Bottom Navigation -->
+
+    <nav class="bottom-nav">
+
+
+        <a
+            href="index.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ▦
+            </span>
+
+            <span>
+                Dashboard
+            </span>
+
+        </a>
+
+
+        <a
+            href="ledger.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ▤
+            </span>
+
+            <span>
+                Ledger
+            </span>
+
+        </a>
+
+
+        <a
+            href="add-expense.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                +
+            </span>
+
+            <span>
+                Add
+            </span>
+
+        </a>
+
+
+        <a
+            href="budget.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ♧
+            </span>
+
+            <span>
+                Budget
+            </span>
+
+        </a>
+
+
+        <a
+            href="insights.html"
+            class="nav-item active"
+        >
+
+            <span class="nav-icon">
+                ▥
+            </span>
+
+            <span>
+                Insights
+            </span>
+
+        </a>
+
+
+    </nav>
+
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

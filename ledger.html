@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>BILLBOOK - Ledger</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Top Header -->
+
+    <header class="topbar">
+
+        <button class="menu-btn">
+            ☰
+        </button>
+
+
+        <div class="logo">
+            BILLBOOK
+        </div>
+
+
+        <button class="profile-btn">
+            ♙
+        </button>
+
+    </header>
+
+
+
+    <!-- Main Ledger -->
+
+    <main class="ledger-page">
+
+
+        <!-- Page Heading -->
+
+        <section class="ledger-heading">
+
+            <h1>
+                Master Ledger
+            </h1>
+
+            <p>
+                A chronological record of your finances.
+            </p>
+
+        </section>
+
+
+
+        <!-- Search -->
+
+        <section class="ledger-search">
+
+            <input
+                type="text"
+                id="ledgerSearch"
+                placeholder="Search entries..."
+            >
+
+        </section>
+
+
+
+        <!-- Transactions -->
+
+        <section
+            id="ledgerEntries"
+            class="ledger-entries"
+        >
+
+
+            <!--
+                Transactions will be added here
+                using JavaScript.
+
+                They will be grouped according
+                to their date.
+            -->
+
+
+        </section>
+
+    </main>
+
+
+
+    <!-- Bottom Navigation -->
+
+    <nav class="bottom-nav">
+
+
+        <a
+            href="index.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ▦
+            </span>
+
+            <span>
+                Dashboard
+            </span>
+
+        </a>
+
+
+        <a
+            href="ledger.html"
+            class="nav-item active"
+        >
+
+            <span class="nav-icon">
+                ▤
+            </span>
+
+            <span>
+                Ledger
+            </span>
+
+        </a>
+
+
+        <a
+            href="add-expense.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                +
+            </span>
+
+            <span>
+                Add
+            </span>
+
+        </a>
+
+
+        <a
+            href="budget.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ♧
+            </span>
+
+            <span>
+                Budget
+            </span>
+
+        </a>
+
+
+        <a
+            href="insights.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ▥
+            </span>
+
+            <span>
+                Insights
+            </span>
+
+        </a>
+
+
+    </nav>
+
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

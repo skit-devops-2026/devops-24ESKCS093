@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>BILLBOOK - Shared Expenses</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shared.css">
+
+</head>
+
+
+<body>
+
+    <!-- Header -->
+
+    <header class="topbar">
+
+        <div class="logo">
+            BILLBOOK
+        </div>
+
+
+        <button class="profile-btn">
+            ♙
+        </button>
+
+    </header>
+
+
+
+    <!-- Main Content -->
+
+    <main class="shared-page">
+
+
+        <!-- Page Heading -->
+
+        <section class="shared-heading">
+
+            <h1>
+                Shared Expenses
+            </h1>
+
+            <p>
+                Keep track of who paid and who owes.
+            </p>
+
+        </section>
+
+
+
+        <!-- Current Balance -->
+
+        <section class="shared-summary">
+
+            <p class="shared-label">
+                YOUR BALANCE
+            </p>
+
+
+            <h2 id="sharedBalance">
+                ₹0
+            </h2>
+
+
+            <p id="sharedBalanceMessage">
+                Your shared expenses will appear here.
+            </p>
+
+        </section>
+
+
+
+        <!-- Add Shared Expense -->
+
+        <section class="shared-action">
+
+            <h2>
+                Add Shared Expense
+            </h2>
+
+            <p>
+                Split a new expense with your friends.
+            </p>
+
+
+            <a
+                href="add-expense.html"
+                class="shared-add-button"
+            >
+                + ADD EXPENSE
+            </a>
+
+        </section>
+
+
+
+        <!-- People -->
+
+        <section class="people-section">
+
+            <h2>
+                People
+            </h2>
+
+
+            <div id="sharedPeople">
+
+                <p class="empty-shared">
+                    People added to shared expenses will appear here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Shared Expenses -->
+
+        <section class="shared-list-section">
+
+            <h2>
+                Recent Shared Expenses
+            </h2>
+
+
+            <div id="sharedExpenses">
+
+                <p class="empty-shared">
+                    No shared expenses yet.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Settlement -->
+
+        <section class="settlement-section">
+
+            <h2>
+                Settlement
+            </h2>
+
+
+            <div id="settlementList">
+
+                <p class="empty-shared">
+                    Nothing to settle yet.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- Bottom Navigation -->
+
+    <nav class="bottom-nav">
+
+
+        <a
+            href="index.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ▦
+            </span>
+
+            <span>
+                Dashboard
+            </span>
+
+        </a>
+
+
+        <a
+            href="ledger.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ▤
+            </span>
+
+            <span>
+                Ledger
+            </span>
+
+        </a>
+
+
+        <a
+            href="add-expense.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                +
+            </span>
+
+            <span>
+                Add
+            </span>
+
+        </a>
+
+
+        <a
+            href="budget.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ♧
+            </span>
+
+            <span>
+                Budget
+            </span>
+
+        </a>
+
+
+        <a
+            href="insights.html"
+            class="nav-item"
+        >
+
+            <span class="nav-icon">
+                ▥
+            </span>
+
+            <span>
+                Insights
+            </span>
+
+        </a>
+
+
+    </nav>
+
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
