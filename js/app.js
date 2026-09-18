@@ -20,9 +20,11 @@ function calculateExpensePercentage(totalBudget, expenses) {
     return (totalExpenses / totalBudget) * 100;
 }
 
-module.exports = {
-    calculateTotalExpenses,
-    calculateRemainingBudget,
-    isValidExpenseAmount,
-    calculateExpensePercentage
-};
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = {
+        calculateTotalExpenses,
+        calculateRemainingBudget,
+        isValidExpenseAmount,
+        calculateExpensePercentage
+    };
+}
