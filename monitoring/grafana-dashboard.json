@@ -1,0 +1,75 @@
+{
+  "title": "Billbook Monitoring",
+  "uid": "billbook-monitoring",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "15s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Nginx HTTP Requests",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "targets": [
+        {
+          "expr": "nginx_http_requests_total",
+          "legendFormat": "Total requests",
+          "refId": "A"
+        }
+      ],
+      "gridPos": {
+        "h": 9,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 2,
+      "title": "Active Nginx Connections",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "targets": [
+        {
+          "expr": "nginx_connections_active",
+          "legendFormat": "Active connections",
+          "refId": "A"
+        }
+      ],
+      "gridPos": {
+        "h": 9,
+        "w": 12,
+        "x": 12,
+        "y": 0
+      }
+    },
+    {
+      "id": 3,
+      "title": "Nginx Exporter Health",
+      "type": "stat",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "targets": [
+        {
+          "expr": "nginx_up",
+          "legendFormat": "Nginx up",
+          "refId": "A"
+        }
+      ],
+      "gridPos": {
+        "h": 5,
+        "w": 6,
+        "x": 0,
+        "y": 9
+      }
+    }
+  ]
+}
