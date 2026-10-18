@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: billbook
+  labels:
+    app: billbook
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: billbook
+  template:
+    metadata:
+      labels:
+        app: billbook
+    spec:
+      containers:
+        - name: billbook
+          image: chaitanya310306/billbook:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 10
