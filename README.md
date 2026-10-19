@@ -25,8 +25,7 @@ make run
 ```
 
 ## Live URL
-
-<Add once M5 is done. Until then, leave as is.>
+https://billbook-chaitanya-2026.onrender.com
 
 ## Health endpoint
 
